@@ -1,0 +1,42 @@
+---
+title: "RExercise#2_Villarante"
+author: "Sean Justine Villarante"
+date: "2026-09-30"
+output: html_document
+---
+# Part A
+```{r}
+a <- 17
+b <- 5
+
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+
+print(a && b)
+print(a %/% b)
+
+raise <- 2 ^ 10
+```
+
+Question #1: Run 17 / 5, 17 %% 5, and 17 %/% 5 side by side. In your own words, explain how these three results relate to each other mathematically.
+```{r}
+a <- 17
+b <- 5 
+
+print(a/b)
+print(a%%b)
+print(a%/%b)
+```
+Standard division gives the same decimal total, while integer division and modulo split the process into a whole-number quotient and a leftover remainder that together equal the original exact result.
+
+Question #2: Predict the output of 10 %% 3 and 10 %/% 3 before running the code. Were you correct? If not, explain what you misunderstood.
+- I am predict that running modulo will output 1 and integer division will output 3, which is correct because 3 fits into 10 three whole times with a remainder of 1 from the modulo.
+
+
+# Part B
+```{r}
+
+```
+
